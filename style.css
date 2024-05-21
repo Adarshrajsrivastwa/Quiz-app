@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz{
+    background-color: whitesmoke;
+    height: auto;
+    width:60vw;
+    margin-left: 20vw;
+    margin-top: 15vh;
+    border-radius: 2vh;
+    padding: 5vh;
+    background-color: bisque;
+    user-select: none;
+    text-align: center;
+    align-items: center;
+}
+
+.quiz h1{
+    font-size: 5vh;
+    color: rgb(145, 25, 25);
+    text-align: center;
+    font-weight: bolder;
+}
+
+.quiz h2{
+    font-size: 3vh;
+    color: brown;
+    font-weight: 700;
+}
+
+.answer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    gap: 2vh;
+    margin-top: 5vh;
+}
+
+.btn{
+    height:5vh;
+    width: 40vw;
+    margin-left: 5vw;
+    border-radius: 5vh;
+    margin-top: 3vh;
+    font-size: 2vh;
+}
+
+.btn:hover{
+    transition: 0.5s;
+    background-color: gray;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.next{
+    display:none;
+    height: 5vh;
+    width: 6vw;
+    margin-left: 22vw;
+    background-color:rgb(67, 67, 190) ;
+    border-radius: 5vh;
+}
+
+.next:hover{
+    font-weight: 900;
+    background-color:blue;
+    cursor: pointer;
+}
+
+.question{
+    margin-top: 5vh;
+    font-size: 5vh;
+}
+
+.score{
+    font-size:4vh;
+    margin-top: 5vh;
+}
+
+@media only screen and (max-width: 600px){
+    .quiz{
+        background-color: whitesmoke;
+        height: auto;
+        width:90vw;
+        margin-left: 5vw;
+        margin-top: 10vh;
+        border-radius: 2vh;
+        padding: 1vh;
+        background-color: bisque;
+        user-select: none;
+        text-align: center;
+        align-items: center;
+    }
+
+    .btn{
+        height:8vh;
+        width: 60vw;
+        margin-left: 13vw;
+        border-radius: 5vh;
+        margin-top: 3vh;
+        font-size: 2vh;
+    }
+
+    .next{
+        display:none;
+        height: 5vh;
+        width: 20vw;
+        margin-left: 35vw;
+        background-color:rgb(67, 67, 190) ;
+        border-radius: 5vh;
+    }
+
+    
+}
